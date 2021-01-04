@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Student>
+           <student>
+                 <regdno.>190031491</regdno.>
+                <name>SHAIK FARHATH JAHA</name>
+                <email>fj@c.c</email>
+          </student>
+          <student>
+                 <regdno.>190031171</regdno.>
+                <name>VEDA SREE</name>
+                <email>vs@c.c</email>
+           </student>
+          <student>
+                 <regdno.>190031468</regdno.>
+                <name>PRAGATHI CHAUDARY</name>
+                <email>pc@c.c</email>
+          </student>
+</Student>
