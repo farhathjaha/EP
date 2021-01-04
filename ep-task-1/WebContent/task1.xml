@@ -1,48 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STUDENT>
+<!DOCTYPE student-info SYSTEM "task1.dtd">
+<students-info>
 
- <student>
-<name> SHAIK FARHATH JAHA </name>
-<id> 190031491 </id>
-<branch> CSE </branch>
-<cgpa> 9 </cgpa>
-</student>
+	<student sid="a">
+		<name> SHAIK FARHATH JAHA </name>
+		<id> 190031491 </id>
+		<branch> CSE </branch>
+		<cgpa> 9 </cgpa>
+	</student>
 
-<student>
-<name> VEDA SREE </name>
-<id> 1900311171</id>
-<branch> CSE</branch>
-<cgpa>8.9</cgpa>
-</student>
+	<student sid="b">
+		<name> VEDA SREE </name>
+		<id> 1900311171</id>
+		<branch> CSE</branch>
+		<cgpa>8.9</cgpa>
+	</student>
 
-<student>
-<name> PRAGATHI CHAUDARY</name>
-<id>190031468</id>
-<branch>ECE</branch>
-<cgpa>8.8</cgpa>
-</student>
+	<student sid="c">
+		<name> PRAGATHI CHAUDARY</name>
+		<id>190031468</id>
+		<branch>ECE</branch>
+		<cgpa>8.8</cgpa>
+	</student>
 
-<student>
-<name>HARSHI</name>
-<id>190031878</id>
-<branch>IT</branch>
-<cgpa>8.9</cgpa>
-</student>
+	<student sid="d">
+		<name>HARSHI</name>
+		<id>190031878</id>
+		<branch>IT</branch>
+		<cgpa>8.9</cgpa>
+	</student>
 
-<student>
-<name>DEEPIKA</name>
-<id>190031568</id>
-<branch>BBA</branch>
-<cgpa>9</cgpa>
-</student>
+	<student sid="e">
+		<name>DEEPIKA</name>
+		<id>190031568</id>
+		<branch>BBA</branch>
+		<cgpa>9</cgpa>
+	</student>
 
-<student>
-<name>BHAVANA</name>
-<id>190030808</id>
-<branch>MECH</branch>
-<cgpa>8.9</cgpa>
-</student>
+	<student sid="f">
+		<name>BHAVANA</name>
+		<id>190030808</id>
+		<branch>MECH</branch>
+		<cgpa>8.9</cgpa>
+	</student>
 
-</STUDENT>
+</students-info>
 
 

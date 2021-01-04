@@ -1,57 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student-info SYSTEM "task2.dtd">
 <students_info>
-<student>                               
-   <regno>190031491</regno>
-   <name>SHAIK FARHATH JAHA</name>   
-   <avg>92</avg>
-   <dob>26-09-2001</dob> 
-   <time>8:50</time>      
-   <mobile no="9705967260"/>                         
-   <distinction>KANDUKUR</distinction>
- </student>
- <student>                               
-   <regno>190031468</regno>
-   <name>PRAGATHI</name>   
-   <avg>90</avg>
-   <dob>15-08-2001</dob> 
-   <time>9</time>      
-   <mobile no="9849984900"/>                         
-   <distinction>NELLORE</distinction>
- </student>
-  <student>                               
-   <regno>190031171</regno>
-   <name>VEDA SREE</name>   
-   <avg>89</avg>
-   <dob>5-08-2001</dob> 
-   <time>8</time>      
-   <mobile no="9849647892"/>                         
-   <distinction>VIJAYAWADA</distinction>
- </student>
-    <student>                               
-   <regno>19003080</regno>
-   <name>BHAVANA</name>   
-   <avg>90</avg>
-   <dob>15-07-2001</dob> 
-   <time>7</time>      
-   <mobile no="9849984900"/>                         
-   <distinction>PIDUGURALLU</distinction>
- </student>
-    <student>                               
-   <regno>190031869</regno>
-   <name>DEEPIKA</name>   
-   <avg>91</avg>
-   <dob>26-08-2001</dob> 
-   <time>9</time>      
-   <mobile no="9886869542"/>                         
-   <distinction>GOA</distinction>
- </student>
-    <student>                               
-   <regno>190031896</regno>
-   <name>NELAMI</name>   
-   <avg>86</avg>
-   <dob>15-08-2002</dob> 
-   <time>6</time>      
-   <mobile no="9849984900"/>                         
-   <distinction>GUNTUR</distinction>
- </student>
- </students_info>
+	<student sid="a">
+		<regno>190031491</regno>
+		<name>SHAIK FARHATH JAHA</name>
+		<avg>92</avg>
+		<dob>26-09-2001</dob>
+		<time>8:50</time>
+		<mobile no="9705967260" />
+		<distinction>KANDUKUR</distinction>
+	</student>
+	<student sid="b">
+		<regno>190031468</regno>
+		<name>PRAGATHI</name>
+		<avg>90</avg>
+		<dob>15-08-2001</dob>
+		<time>9</time>
+		<mobile no="9849984900" />
+		<distinction>NELLORE</distinction>
+	</student>
+	<student sid="c">
+		<regno>190031171</regno>
+		<name>VEDA SREE</name>
+		<avg>89</avg>
+		<dob>5-08-2001</dob>
+		<time>8</time>
+		<mobile no="9849647892" />
+		<distinction>VIJAYAWADA</distinction>
+	</student>
+	<student sid="d">
+		<regno>19003080</regno>
+		<name>BHAVANA</name>
+		<avg>90</avg>
+		<dob>15-07-2001</dob>
+		<time>7</time>
+		<mobile no="9849984900" />
+		<distinction>PIDUGURALLU</distinction>
+	</student>
+	<student sid="e">
+		<regno>190031869</regno>
+		<name>DEEPIKA</name>
+		<avg>91</avg>
+		<dob>26-08-2001</dob>
+		<time>9</time>
+		<mobile no="9886869542" />
+		<distinction>GOA</distinction>
+	</student>
+	<student sid="f">
+		<regno>190031896</regno>
+		<name>NELAMI</name>
+		<avg>86</avg>
+		<dob>15-08-2002</dob>
+		<time>6</time>
+		<mobile no="9849984900" />
+		<distinction>GUNTUR</distinction>
+	</student>
+</students_info>
