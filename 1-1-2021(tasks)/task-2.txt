@@ -1,0 +1,67 @@
+<html>
+<title>Registeration Page</title>
+<script> 
+function validateform(){ 
+var user=document.myform.user.value; 
+var pswd=document.myform.pswd.value; 
+var mail=document.myfrom.mail.value;
+if(pswd.length<8){ 
+ alert("Password must be at least 8 characters long."); 
+ return false; 
+ } else if(user.length<8){
+alert("Username must be at least 8 characters long."); 
+ return false; 
+}else if(mail.length<8){
+alert("Username must be at least 8 characters long."); 
+ return false; 
+}
+} 
+</script>
+<body>
+<form name="myform" method="post" onsubmit="return validateform()">
+<table align="center">
+
+<style>
+h1{text-align:center;}
+body {
+
+ background-color:lightblue;
+}
+</style>
+<h1>**REGISTRATION FORM**</h1>
+
+<tr><td>Name of the student:</td><td><input type="text" name="user" required><br></td></tr>
+<tr><td>Register number:</td><td><input type="text" name="rno" required><br></td></tr>
+<tr><td>Email ID:</td><td><input type="text" name="email" required></td></tr>
+
+<tr><td>favorite sport:</td><td><input type="checkbox" id="cricket" name="cricket"></dr>
+<label for="cricket">cricket</label>
+<input type="checkbox" id="football" name="football">
+<label for="football">football</label>
+<input type="checkbox" id="chess" name"chess">
+<label for="chess">chess</label></tr>
+
+<tr><td>Gender:</td><td><input type="radio" id="male" name="gender" value="male" required></dr>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other" required>
+<label for="other">Other</label></tr>
+
+<tr><td>Favourite subjects:</td><td>
+  <input list="browsers" name="browser" id="browser" required>
+  <datalist id="browsers">
+    <option value="JAVA">
+    <option value="C">
+    <option value="C++">
+    <option value="Python">
+    <option value="Others">
+  </datalist>
+
+<tr><td>Address:</td><td><input type="text" name="address" required><br></td></tr>
+
+<tr><td><input type="submit" value="login"></td></tr>
+</table>
+</form>
+</body>
+</html>
