@@ -1,0 +1,42 @@
+<html>
+<title>Registeration Page</title>
+<body>
+<form method="post">
+<table align="center">
+
+
+<tr><td>Name of the student:</td><td><input type="text" name="user"><br></td></tr>
+<tr><td>Register number:</td><td><input type="text" name="rno"><br></td></tr>
+<tr><td>Email ID:</td><td><input type="text" name="email"></td></tr>
+
+<tr><td>favorite sport:</td><td><input type="checkbox" id="cricket" name="cricket"></dr>
+<label for="cricket">cricket</label>
+<input type="checkbox" id="football" name="football">
+<label for="football">football</label>
+<input type="checkbox" id="chess" name"chess">
+<label for="chess">chess</label></tr>
+
+<tr><td>Gender:</td><td><input type="radio" id="male" name="gender" value="male"></dr>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label></tr>
+
+<tr><td>Favourite subjects:</td><td>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="JAVA">
+    <option value="C">
+    <option value="C++">
+    <option value="Python">
+    <option value="Others">
+  </datalist>
+
+<tr><td>Address:</td><td><input type="text" name="address"><br></td></tr>
+
+<tr><td><input type="submit" value="login"></td></tr>
+</table>
+</form>
+</body>
+</html>
